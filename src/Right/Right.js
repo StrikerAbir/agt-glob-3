@@ -5,14 +5,14 @@ const Right = () => {
     const { singleUser } = useContext(Context);
 
   return (
-    <div>
-      <div className="m-5 shadow-lg">
+    <div id='details'>
+      <div className="m-lg-5 mb-5 shadow-lg">
         <div className="bg-info p-3 rounded-top">
           <h2 className="text-center">Users Details</h2>
         </div>
 
         {singleUser ? (
-          <div className="d-flex ">
+          <div className="d-lg-flex ">
             <div className="p-3">
               <img
                 src="https://i.ibb.co/xCJqfTh/people1.png"
